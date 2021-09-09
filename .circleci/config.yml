@@ -7,7 +7,7 @@ orbs:
 jobs:
     build-and-test:
         docker:
-            - image: cimg/nod:15.1
+            - image: cimg/node:15.1
 
         steps:
             - checkout
