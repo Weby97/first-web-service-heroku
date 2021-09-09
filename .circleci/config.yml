@@ -629,7 +629,7 @@ examples:
                             filters:
                                 branches:
                                     only:
-                                        - master
+                                        - main
                             requires:
                                 - node/test
     node_yarn_run:
